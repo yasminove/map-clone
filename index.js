@@ -5,7 +5,7 @@ function mapClone(fn, fn2, arr){
 }
 
 
-function iterate(){
+function iterate(fn2, arr){
   let newArr = [];
   for(i=0; i<arr.length; i++){
     newArr.push(
@@ -21,4 +21,4 @@ function doubleNum(num){
   return num * 2;
 }
 
-const iterateThroughtArr = mapClone(iterate, )
+const iterateThroughtArr = mapClone(iterate, doubleNum , nums)
