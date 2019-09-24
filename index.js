@@ -22,3 +22,5 @@ function doubleNum(num){
 }
 
 const iterateThroughtArr = mapClone(iterate, doubleNum , nums)
+
+console.log(iterateThroughtArr());
