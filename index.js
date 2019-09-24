@@ -16,3 +16,9 @@ function iterate(){
 }
 
 const nums = [1,2,3];
+
+function doubleNum(num){
+  return num * 2;
+}
+
+const iterateThroughtArr = mapClone(iterate, )
