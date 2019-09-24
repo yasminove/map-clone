@@ -14,3 +14,5 @@ function iterate(){
   }
   return newArr;
 }
+
+const nums = [1,2,3];
